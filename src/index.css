@@ -1,0 +1,210 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg1{
+   
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 90vh;
+        
+        width: 1550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        z-index: -10;
+        overflow-x: hidden;
+        background-position: center;
+        opacity: 0.9;
+    
+    background-image:url('./assets/bg1.jpg');
+    
+}
+
+.featurette-divider {
+    margin: 0px 20px;
+}
+
+.content {
+    margin: 20px;
+    padding: auto;
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container1 {
+    margin: 50px;
+    margin-top: 0px;
+    padding: 50px;
+}
+
+.subhead {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    padding: auto;
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container2 {
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.introSec {
+    background: url('./assets/1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.introSec1 {
+    background: url('./assets/2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.introSec2 {
+    background: url('./assets/3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+step>h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+step>h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+}
+
+footer>p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Step styles */
+.step {
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.step:first-child {
+    border-top: none;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+footer a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* Button styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+#chat-container {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ccc;
+    position: relative;
+    top:200px;
+}
+
+#chat-header {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#chat-messages {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#user-input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.chatbutton {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.chatbutton:hover {
+    background-color: #555;
+}
